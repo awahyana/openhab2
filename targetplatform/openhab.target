@@ -7,12 +7,12 @@
       <unit id="org.eclipse.smarthome.feature.runtime.console.equinox.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.smarthome.feature.runtime.rest.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.smarthome.feature.test.feature.group" version="0.0.0"/>
-	  <repository location="https://openhab-ci.innoq.io/jenkins/view/innoQ/job/innoq-smarthome/lastSuccessfulBuild/artifact/products/org.eclipse.smarthome.repo/target/repository/"/>
+	  <repository location="http://openhab-ci.innoq.io:8081/nexus/content/unzip/uh-unzip/org/eclipse/smarthome/products/org.eclipse.smarthome.repo/0.8.0-SNAPSHOT/org.eclipse.smarthome.repo-0.8.0-20150902.190615-1.zip-unzip/"/>
       
     </location>
     <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
       <unit id="org.eclipse.smarthome.feature.runtime.paperui.feature.group" version="0.0.0"/>
-      <repository location="https://openhab-ci.innoq.io/jenkins/view/innoQ/job/innoq-smarthome.paperui/lastSuccessfulBuild/artifact/products/org.eclipse.smarthome.repo/target/repository/"/>
+      <repository location="http://openhab-ci.innoq.io:8081/nexus/content/unzip/uh-esh-unzip/org/eclipse/smarthome/products/org.eclipse.smarthome.repo/0.8.0-SNAPSHOT/org.eclipse.smarthome.repo-0.8.0-20150902.185309-1.zip-unzip/"/>
     </location>
     <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
       <unit id="org.eclipse.emf.mwe2.runtime.sdk.feature.group" version="0.0.0"/>
